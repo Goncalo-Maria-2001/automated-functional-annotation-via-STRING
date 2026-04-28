@@ -55,7 +55,7 @@ def convert_IDs_to_string(loc_slices):
             results = requests.post(request_url, data=params)
             with open(os.path.join(general_path, 'ID_tables', f'{loc} - {slice}.tsv'), 'w') as f:
                 f.write(results.text)
-            print(f'{loc} - {slice} done')
+            ## print(f'{loc} - {slice} done')
 
 
 

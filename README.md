@@ -31,5 +31,6 @@ STRING .png protein interaction:
 
 # Function Overview
 
+The links provided expire after 2 days and must be generated again.
 # Limitations
 

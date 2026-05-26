@@ -21,11 +21,11 @@ Function	GO:0008924	4	4	176279	176279.SERP1955,176279.SERP2168,176279.SERP2312,1
 
 STRING .svg enrichment figure:
 
-<img width="879" height="491" alt="11k-13k-RP-s14" src="https://github.com/user-attachments/assets/cfac3fc4-ee2f-4eb5-980b-08257f95871c" />
+<img width="439" height="245" alt="11k-13k-RP-s14" src="https://github.com/user-attachments/assets/cfac3fc4-ee2f-4eb5-980b-08257f95871c" />
 
 STRING .png protein interaction:
 
-<img width="1048" height="862" alt="11k-13k-RP-s14" src="https://github.com/user-attachments/assets/17f52af1-aeaa-4bd9-bf0e-c4fd92d999db" />
+<img width="524" height="431" alt="11k-13k-RP-s14" src="https://github.com/user-attachments/assets/17f52af1-aeaa-4bd9-bf0e-c4fd92d999db" />
 
 # Getting Started
 

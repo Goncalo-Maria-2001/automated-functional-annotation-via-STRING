@@ -1,6 +1,6 @@
 # Automated-functional-annotation-via-STRING
 
-A python script used to batch query STRING's database for functional annotation, GO-term enrichment and protein interaction networks of a given sub-cellular localization from a given strain's proteome in the context of all the observed strain's proteome for the given cell sublocalization. The program produces:
+This script was used to batch query STRING's database for functional annotation, GO-term enrichment and protein interaction networks. Each query consists of the intersections of proteomes from different strains of the same bacterium in the context of all the observed strain's proteome for all studied cell sublocalizations. The goal was to better understand and characterize which biological processes are available for each strain or shared across strains and if there is a correlation between any of the strain's biological processes and it's pathogenecity. The program produces:
 
  - STRING .tsv enrichment tables,
  - STRING .svg enrichment figures,
@@ -10,7 +10,7 @@ A python script used to batch query STRING's database for functional annotation,
 # Example Outputs
 
 Excerpt of a STRING .tsv enrichment table:
-```
+```TSV
 category	term	number_of_genes	number_of_genes_in_background	ncbiTaxonId	inputGenes	preferredNames	p_value	fdr	description
 COMPARTMENTS	GOCC:0030313	5	18	176279	176279.SERP0574,176279.SERP1994,176279.SERP2288,176279.SERP2372,176279.SERP2398	oppA,SERP1994,SERP2288,SERP2372,aap	2.55e-05	0.0052	Cell envelope
 COMPARTMENTS	GOCC:0030288	4	14	176279	176279.SERP0574,176279.SERP1994,176279.SERP2288,176279.SERP2372	oppA,SERP1994,SERP2288,SERP2372	0.00017	0.0121	Outer membrane-bounded periplasmic space

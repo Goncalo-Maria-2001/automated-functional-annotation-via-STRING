@@ -31,6 +31,11 @@ STRING .png protein interaction:
 
 # Function Overview
 
-The links provided expire after 2 days and must be generated again.
-# Limitations
 
+# Limitations
+The links provided expire after 2 days and must be generated again.
+
+#References
+
+- PSORTb v3.0: N.Y. Yu, J.R. Wagner, M.R. Laird, G. Melli, S. Rey, R. Lo, P. Dao, S.C. Sahinalp, M. Ester, L.J. Foster, F.S.L. Brinkman (2010) PSORTb 3.0: Improved protein subcellular localization prediction with refined localization subcategories and predictive capabilities for all prokaryotes, Bioinformatics 26(13):1608-1615
+- Venn diagram tool used: https://bioinformatics.psb.ugent.be/webtools/Venn/ (No citation available as of writing)

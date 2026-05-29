@@ -81,7 +81,7 @@ def get_STRING_enrichment(loc_slices,NCBI_taxon, caller_id, path):
     for loc in loc_slices:
         os.makedirs(os.path.join(path, 'Enrichment', f'{loc}'), exist_ok=True)
         for slice in loc_slices[loc]:
-            time.sleep(2)
+            time.sleep(1)
             df_query = pd.read_csv(os.path.join(path, 'ID_tables', f'{loc}', f'{slice}.tsv'), sep = '\t', header = 0)
             if 'Error' in df_query.columns:
                 with open(os.path.join(path, 'Enrichment', f'{loc}', f'{slice}.tsv'), 'w') as f:
@@ -122,7 +122,7 @@ def get_network_images(loc_slices,NCBI_taxon, caller_id, path):
     for loc in loc_slices:
         os.makedirs(os.path.join(path, 'Network_figures', f'{loc}'), exist_ok=True)
         for slice in loc_slices[loc]:
-            time.sleep(2)
+            time.sleep(1)
 
             df_query = pd.read_csv(os.path.join(path, 'ID_tables', f'{loc}', f'{slice}.tsv'), sep="\t", header=0)
             query_IDs = df_query['stringId'].tolist()

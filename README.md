@@ -57,10 +57,6 @@ To see all available options check
 python automated-functional-enrichment.py -h
 ```
 
-
-# Function Overview
-
-
 # Limitations
 
 - The links provided expire after 2 days and must be generated again,
